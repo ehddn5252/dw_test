@@ -85,12 +85,13 @@ DATABASES = {
 #  TODO[2021.11.12] MYSQL 로 연결
 #DATABASES = my_setting.DATABASES
 
+# 연결은 clear
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'test',
+        'NAME': 'test1',
         'USER': 'root',
-        'PASSWORD': '1234',
+        'PASSWORD': '5252',
         'HOST': 'localhost',
         'PORT': '3306',
     }
